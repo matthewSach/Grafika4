@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+header .top-nav {
+  height: 10%;
+  font-weight: bold;
+  display: flex;
+}
+header .top-nav .top-container {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-nav .top-container nav ul {
+  display: flex;
+  width: 450px;
+  list-style: none;
+  justify-content: space-evenly;
+}
+header .top-nav .top-container nav ul li {
+  text-align: center;
+}
+header .welcome-img {
+  height: 100%;
+  background: url(images/hero.jpg);
+  background-size: cover;
+  background-position: 0px -150px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+header .welcome-img .header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 570px;
+  height: 230px;
+  text-align: center;
+}
+header .welcome-img .header-content .content-heading-container {
+  width: auto;
+  font-size: 36px;
+}
+header .welcome-img .header-content .content-paragraph-container {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 25px;
+}
+header .welcome-img .header-content .content-buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  margin-top: 25px;
+}
+header .welcome-img .header-content .content-buttons-container .header-button {
+  width: 120px;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+}
+header .welcome-img .header-content .content-buttons-container .fill {
+  border: 2px solid orange;
+  background-color: orange;
+}
+header .welcome-img .header-content .content-buttons-container .empty {
+  border: 2px solid black;
+  background: transparent;
+}
+
+main .boxes-container {
+  width: 75%;
+  margin: 80px auto;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+}
+main .boxes-container .content-box {
+  width: 25%;
+  text-align: center;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .boxes-container .content-box i {
+  font-size: 50px;
+}
+main .boxes-container .content-box h3 {
+  font-size: 25px;
+}
+main .boxes-container .content-box p {
+  line-height: 23px;
+  font-size: 13px;
+}
+main .main-content-container {
+  background-color: #ECECEC;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
+main .main-content-container .main-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main-content-container .main-content .c-box {
+  width: 50%;
+  height: 400px;
+  margin: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .main-content-container .main-content .c-box img {
+  width: 530px;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+  right: 10px;
+}
+main .main-content-container .main-content .c-box img:nth-child(1) {
+  left: 10px;
+}
+main .main-content-container .main-content .c-box .cbox-content {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .main-content-container .main-content .c-box .cbox-content h2 {
+  font-size: 32px;
+}
+main .main-content-container .main-content .c-box .cbox-content p {
+  font-size: 13px;
+  width: 80%;
+  line-height: 20px;
+  margin: 30px 0;
+}
+main .main-content-container .main-content .c-box .butnos {
+  width: 150px;
+  font-weight: bold;
+  font-size: 13px;
+  height: 35px;
+  line-height: 35px;
+  background-color: orange;
+  text-align: center;
+  line-height: 35px;
+}
+main .main-content-container .main-content .c-box .butnos:nth-child(3) {
+  color: #000;
+}
+main .main-content-container:nth-child(3) {
+  background-color: #fff;
+}
+main .main-content-container:nth-child(4) {
+  background-color: #000;
+  color: #fff;
+}/*# sourceMappingURL=styles.css.map */
