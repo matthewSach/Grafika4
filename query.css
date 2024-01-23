@@ -1,0 +1,109 @@
+@media screen and (max-width: 1000px) {
+    header .top-nav .top-container nav ul{
+        display: none;
+    }
+
+    header .top-nav .top-container .burgir{
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+
+
+    /* WELLCOME BG*/
+    header .welcome-img{
+        background: url(images/bg-trans.png);
+        background-color: #EEF0ED;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
+
+    header .welcome-img .header-content .content-heading-container {
+        width: 75%;
+        margin: 0 auto;
+        font-size: 30px;
+      }
+      header .welcome-img .header-content .content-paragraph-container {
+        width: 90%;
+        font-size: 17px;
+        margin: 0 auto;
+
+        margin-top: 25px;
+      }
+
+    /* První odznaky */
+    main .boxes-container{
+        flex-wrap: wrap;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    main .boxes-container .content-box{
+        width: 80%;
+        margin: 10px 20px;
+    }
+    main .main-content-container {
+        height: auto;
+        margin: 30px 0;
+    }
+
+
+    /* HLAVNÍ KONTENT */
+    main .main-content-container .main-content{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    main .main-content-container .main-content .c-box{
+        width: 100%;
+        position: relative;
+    }
+
+    main .main-content-container .main-content .c-box img{
+        display: block;
+        margin-right: 0px;
+        width: 97%;
+
+    }
+
+    /* OBRAZKY SEKCE*/
+    main .heading-navic{
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    /* KOMENTÁŘE */
+    main .coment-section{
+        height: auto;
+        padding: 10px 0;
+    }
+    main .coment-section .coments {
+        flex-direction: column;
+    }
+
+    main .coment-section .coments .coment-container {
+       width: 95%;
+       margin: 20px 0;
+    }
+
+
+    /*  TOGETHER SEKCE*/
+
+    main .work-together .together-container {
+        width: 80%;
+    }
+
+    main .work-together .together-container h2 {
+        font-size: 27px;
+    }
+
+    main .work-together .together-container p {
+        font-size: 20px;
+    }  
+
+}
